@@ -7,7 +7,7 @@ body{
     padding-bottom: 100px;
     max-width:100%;
     height:auto;
-    background-image: url(/O/OO.jpg);
+    background-image: url(/imagen/OO.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -141,7 +141,7 @@ footer h2{
 
 @media screen and (max-width: 767.98px) { 
     body{
-        background-image: url(/O/O-Tablet.jpg);
+        background-image: url(/imagen/O-Tablet.jpg);
     }
 
 #boton1, #boton2{
@@ -153,7 +153,7 @@ footer h2{
 
 @media screen and (max-width: 575.98px) { 
     body{
-        background-image: url(/O/O-Movil.jpg);
+        background-image: url(/imagen/O-Movil.jpg);
     }
 
 header h1{
