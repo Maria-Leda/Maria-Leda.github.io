@@ -1,0 +1,202 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    min-height:100%;
+    padding-bottom: 100px;
+    max-width:100%;
+    height:auto;
+    background-image: url(/O/OO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header{
+    background-color:lightslategrey;
+    border-radius: 10px;
+    padding:20px;
+}
+
+
+
+ header h1{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: rgb(247, 0, 255);
+    text-align: center;  
+}
+
+img{
+    margin: auto;
+    display:block;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    object-fit: cover;
+    border:5px solid rgb(62, 0, 64, 25);
+    
+}
+
+
+.container{
+    margin: 0 auto;
+    width:100%;
+    max-width:1000px; 
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.parte1, .parte2, .foto{ 
+    background-color:rgb(254, 184, 237);
+    margin: 16px ;
+    cursor: pointer;
+    border-radius: 10px; 
+    padding:20px;
+   
+}
+
+.parte1, .parte2{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+ul{
+   list-style-type: square;
+   width:100%;
+}
+
+
+li {
+    margin: 0 .75rem;
+    width:100%;
+  }
+
+article h2{
+    font-family: 'Montserrat', sans-serif;
+     margin: 16px;
+}
+
+footer {
+    background-color:lightslategrey ;
+    color:black ;
+    border-radius: 10px;
+    padding:10px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    position:fixed; 
+    left:0px;
+    width:100%;
+    bottom:-7px; 
+}
+
+footer h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left:30%;
+}
+
+#boton1{
+   
+    height:60px; 
+    width:150px;
+    border-radius: 10px;
+    margin-left:20%;
+}
+#boton2{
+    height: 60px;
+    width: 190px;
+    border-radius: 10px;
+    margin-left:20%
+}
+
+button{
+    border-style: solid;
+       border-color: rgb(62, 0, 64, 25);
+       border-width: 3px;
+       background-color: rgb(254, 184, 237);
+       cursor: pointer;
+       font-family: 'Montserrat', sans-serif;
+       font-size: 13px;
+}
+
+
+@media screen and (min-width: 1599.98px) { 
+footer h2{
+    margin-left:80%;
+}
+
+#boton2{
+    width: 190px;
+    margin-left:0%;
+}
+
+#boton1{
+    width: 150px;
+    margin-left:35%
+}
+
+ }
+
+@media screen and (max-width: 767.98px) { 
+    body{
+        background-image: url(/O/O-Tablet.jpg);
+    }
+
+#boton1, #boton2{
+        height: 60px;
+        width: 160px;
+        margin-left:9%
+    }
+}
+
+@media screen and (max-width: 575.98px) { 
+    body{
+        background-image: url(/O/O-Movil.jpg);
+    }
+
+header h1{
+        font-size:30px;
+    }
+
+ul, li{
+    width:90%;
+    grid-column:1 / span 3;
+}
+
+footer h2{
+    margin-left:8%;
+    font-size: 70%;
+}
+
+#boton1, #boton2{
+    height: 40px;
+    width: 105px;
+    margin-left:3%
+}
+
+button{
+        font-size:8px;
+    }
+
+}
+
+@media screen and (max-width: 290px) { 
+
+footer h2{
+    margin-left:8%;
+    font-size: 70%;
+}
+
+#boton1, #boton2{
+    height: 40px;
+    width: 80px;
+    margin-right:3%
+}
+
+button{
+        font-size:6px;
+    }
+
+}
