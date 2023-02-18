@@ -1,9 +1,9 @@
 document.getElementById("boton1").addEventListener("click", function(){
-    document.getElementById("boton1").innerHTML="1156021844";
+    document.getElementById("boton1").innerHTML="(826) 852-6884";
 });
 
 document.getElementById("boton2").addEventListener("click", function() {
-    document.getElementById("boton2").innerHTML="Leda_253@live.com.ar";
+    document.getElementById("boton2").innerHTML="edith.green@example.com";
 });
 
 document.getElementById("hidden").addEventListener("click", function() {
