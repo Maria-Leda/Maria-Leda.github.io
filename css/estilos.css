@@ -7,7 +7,7 @@ body{
     padding-bottom: 100px;
     max-width:100%;
     height:auto;
-    background-image: url(https://github.com/Maria-Leda/Maria-Leda.github.io/blob/main/imagen/Fondo-default.jpg);
+    background-image: url("https://github.com/Maria-Leda/Maria-Leda.github.io/blob/main/imagen/Fondo-default.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -141,7 +141,7 @@ footer h2{
 
 @media screen and (max-width: 767.98px) { 
     body{
-        background-image: url(https://github.com/Maria-Leda/Maria-Leda.github.io/blob/main/imagen/Fondo-Tablet.jpg);
+        background-image: url("https://github.com/Maria-Leda/Maria-Leda.github.io/blob/main/imagen/Fondo-Tablet.jpg?raw=true");
     }
 
 #boton1, #boton2{
@@ -153,7 +153,7 @@ footer h2{
 
 @media screen and (max-width: 575.98px) { 
     body{
-        background-image: url(https://github.com/Maria-Leda/Maria-Leda.github.io/blob/main/imagen/Fondo-Movil.jpg);
+        background-image: url("https://github.com/Maria-Leda/Maria-Leda.github.io/blob/main/imagen/Fondo-Movil.jpg?raw=true");
     }
 
 header h1{
