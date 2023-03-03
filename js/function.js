@@ -3,7 +3,7 @@ document.getElementById("boton1").addEventListener("click", function(){
 });
 
 document.getElementById("boton2").addEventListener("click", function() {
-    document.getElementById("boton2").innerHTML="edith.green@example.com";
+    document.getElementById("boton2").innerHTML="edithgreen@example.com";
 });
 
 document.getElementById("hidden").addEventListener("click", function() {
